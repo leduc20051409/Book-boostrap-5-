@@ -398,21 +398,6 @@
     </script>
 
     <script>
-        // const submit = document.getElementById('submit');
-        // const email = document.getElementById('modal-email');
-        // const errorEmail = document.getElementById('error-email');
-        // const regrex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-
-        // submit.addEventListener('click', function () {
-        //     if (!regrex.test(email.value) || email.value === '') {
-        //         errorEmail.classList.remove('d-none');
-        //         submit.removeAttribute('data-bs-dismiss');
-        //     } else {
-        //         errorEmail.classList.add('d-none');
-        //         submit.setAttribute('data-bs-dismiss', 'modal');
-        //         submit.click();
-        //     }
-        // });
         $(document).ready(function () {
             $('#submit').click(function () {
                 let email = $('#modal-email').val();
